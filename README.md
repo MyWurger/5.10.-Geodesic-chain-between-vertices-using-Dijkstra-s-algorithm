@@ -13,18 +13,18 @@
 
 Входные данные для работы программы задаются следующими ключами
 с параметрами:
--e "edges_list_file_path"
--m "adjacency_matrix_file_path"
--l "adjacency_list_file_path"
+1. -e "edges_list_file_path"
+2. -m "adjacency_matrix_file_path"
+3. -l "adjacency_list_file_path"
 Одновременно может указываться только один из этих ключей. Если
 указано более одного – выдать сообщение об ошибке.
 
 Начальная вершина задаётся следующим ключом:
--n begin_vertex_number
+-n begin_vertex_number.
 Данный ключ является обязательным.
 
 Конечная вершина задаётся следующим ключом:
--d end_vertex_number
+-d end_vertex_number.
 Данный ключ является обязательным
 
 Результаты работы выводятся на экран, либо в файл при указании
